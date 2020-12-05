@@ -1,0 +1,7 @@
+{
+    "version": 1,
+    "key": "auth_module.totp",
+    "data": {
+        "users": {}
+    }
+}

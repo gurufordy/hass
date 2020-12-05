@@ -1,0 +1,139 @@
+{
+    "version": 1,
+    "key": "core.restore_state",
+    "data": [
+        {
+            "state": {
+                "entity_id": "person.matt",
+                "state": "home",
+                "attributes": {
+                    "editable": true,
+                    "id": "matt",
+                    "latitude": 52.7327207,
+                    "longitude": -2.8449055,
+                    "gps_accuracy": 20,
+                    "source": "device_tracker.mi_9t_pro",
+                    "user_id": "e709f6c5e7154767b17a6038493f2f46",
+                    "friendly_name": "Matt"
+                },
+                "last_changed": "2020-12-05T15:35:26.426238+00:00",
+                "last_updated": "2020-12-05T15:47:49.443906+00:00",
+                "context": {
+                    "id": "14a415a3072c4bd9332f461673ce649e",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.new_automation",
+                "state": "off",
+                "attributes": {
+                    "last_triggered": "2020-11-30T09:17:50.900687+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1606665762712",
+                    "friendly_name": "Announce Motion"
+                },
+                "last_changed": "2020-12-05T15:35:26.643175+00:00",
+                "last_updated": "2020-12-05T15:35:26.643175+00:00",
+                "context": {
+                    "id": "1a39f1c3be9be19238f5aa72c20ce351",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.announce_ring",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": "2020-12-02T16:45:48.735980+00:00",
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1606670626443",
+                    "friendly_name": "Announce Ring"
+                },
+                "last_changed": "2020-12-05T15:35:26.643343+00:00",
+                "last_updated": "2020-12-05T15:35:26.643343+00:00",
+                "context": {
+                    "id": "70af5d40d2b53122380bf0fe7d0fc909",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.announce_low_battery",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1606671268134",
+                    "friendly_name": "Announce Low Battery"
+                },
+                "last_changed": "2020-12-05T15:35:26.643475+00:00",
+                "last_updated": "2020-12-05T15:35:26.643475+00:00",
+                "context": {
+                    "id": "fa7fc10ecc87417082c8025584098c39",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "automation.announce_rain",
+                "state": "on",
+                "attributes": {
+                    "last_triggered": null,
+                    "mode": "single",
+                    "current": 0,
+                    "id": "1606673680459",
+                    "friendly_name": "Announce Rain"
+                },
+                "last_changed": "2020-12-05T15:35:26.643603+00:00",
+                "last_updated": "2020-12-05T15:35:26.643603+00:00",
+                "context": {
+                    "id": "dfbb6c5eb2dd01a4a54bb0cff5d552b0",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        },
+        {
+            "state": {
+                "entity_id": "device_tracker.mi_9t_pro",
+                "state": "home",
+                "attributes": {
+                    "source_type": "gps",
+                    "latitude": 52.7327207,
+                    "longitude": -2.8449055,
+                    "gps_accuracy": 20,
+                    "altitude": 122.0,
+                    "course": 218,
+                    "speed": 0,
+                    "vertical_accuracy": 2,
+                    "friendly_name": "Mi 9T Pro"
+                },
+                "last_changed": "2020-12-05T16:47:49.386708+00:00",
+                "last_updated": "2020-12-05T16:47:49.386708+00:00",
+                "context": {
+                    "id": "eed4370d535252eee496be42c5dd5fc5",
+                    "parent_id": null,
+                    "user_id": null
+                }
+            },
+            "last_seen": "2020-12-05T16:50:36.232120+00:00"
+        }
+    ]
+}

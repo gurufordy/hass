@@ -1,0 +1,12 @@
+{
+    "version": 1,
+    "key": "auth_provider.homeassistant",
+    "data": {
+        "users": [
+            {
+                "username": "guru_fordy",
+                "password": "JDJiJDEyJDJEYUdYVWdrblJTYVlYRTNpeE9BSS4xamppVWt0cjdQcXk0cTJlRlVQYVRNMkJwLzFUYzlT"
+            }
+        ]
+    }
+}

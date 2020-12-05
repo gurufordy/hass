@@ -1,0 +1,97 @@
+- id: '1606665762712'
+  alias: Announce Motion
+  description: ''
+  trigger:
+  - type: motion
+    platform: device
+    device_id: e08f3f7246e9158410552d7e1b258cf9
+    entity_id: binary_sensor.front_door_motion
+    domain: binary_sensor
+  condition:
+  - condition: time
+    after: 08:00
+    before: '22:00'
+  - condition: device
+    device_id: 2babc7c71aa384bef2bfc0edbda88c10
+    domain: device_tracker
+    entity_id: device_tracker.mi_9t_pro
+    type: is_home
+  action:
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.office_speaker
+      message: Motion deteced at the front door
+  mode: single
+- id: '1606670626443'
+  alias: Announce Ring
+  description: ''
+  trigger:
+  - type: occupied
+    platform: device
+    device_id: e08f3f7246e9158410552d7e1b258cf9
+    entity_id: binary_sensor.front_door_ding
+    domain: binary_sensor
+  condition:
+  - condition: time
+    after: 08:00
+    before: '22:00'
+  - condition: device
+    device_id: 2babc7c71aa384bef2bfc0edbda88c10
+    domain: device_tracker
+    entity_id: device_tracker.mi_9t_pro
+    type: is_home
+  action:
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.office_speaker
+      message: Someone is at the front door
+  mode: single
+- id: '1606671268134'
+  alias: Announce Low Battery
+  description: ''
+  trigger:
+  - type: battery_level
+    platform: device
+    device_id: e08f3f7246e9158410552d7e1b258cf9
+    entity_id: sensor.front_door_battery
+    domain: sensor
+    below: 20
+  condition:
+  - condition: time
+    after: 08:00
+    before: '22:00'
+  - condition: device
+    device_id: 2babc7c71aa384bef2bfc0edbda88c10
+    domain: device_tracker
+    entity_id: device_tracker.mi_9t_pro
+    type: is_home
+  action:
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.office_speaker
+      message: Your ring doorbell battery is low
+  mode: single
+- id: '1606673680459'
+  alias: Announce Rain
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: sensor.preston_montford_probability_of_precipitation
+    for: precipitation
+    from: '50'
+    to: '100'
+  condition:
+  - condition: time
+    after: 08:00
+    before: '22:00'
+  - condition: device
+    device_id: 2babc7c71aa384bef2bfc0edbda88c10
+    domain: device_tracker
+    entity_id: device_tracker.mi_9t_pro
+    type: is_home
+  action:
+  - service: tts.google_translate_say
+    data:
+      entity_id: media_player.office_speaker
+      message: It's probably going to rain in the next hour
+  mode: single

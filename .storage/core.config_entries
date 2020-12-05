@@ -1,0 +1,154 @@
+{
+    "version": 1,
+    "key": "core.config_entries",
+    "data": {
+        "entries": [
+            {
+                "entry_id": "4f2881160dd64397255e358dc89aaa41",
+                "version": 1,
+                "domain": "metoffice",
+                "title": "Preston Montford",
+                "data": {
+                    "latitude": 52.7327186307979,
+                    "longitude": -2.844675779342652,
+                    "api_key": "47b80440-3f37-4d22-98d5-ec958470e58f",
+                    "name": "Preston Montford"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "52.7327186307979_-2.844675779342652"
+            },
+            {
+                "entry_id": "e8de9dbd6475e2d7674896abd419960a",
+                "version": 1,
+                "domain": "cast",
+                "title": "Google Cast",
+                "data": {
+                    "user_id": "18715d47a0bc4d298466d782802e355d"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "zeroconf",
+                "connection_class": "local_push",
+                "unique_id": "cast"
+            },
+            {
+                "entry_id": "eefe62567c58dfc10a7c2254f3398198",
+                "version": 1,
+                "domain": "mobile_app",
+                "title": "Mi 9T Pro",
+                "data": {
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "3.0.2-full (521)",
+                    "device_name": "Mi 9T Pro",
+                    "manufacturer": "Xiaomi",
+                    "model": "Mi 9T Pro",
+                    "os_name": "Android",
+                    "os_version": "30",
+                    "supports_encryption": false,
+                    "app_data": {
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPush/android/v1",
+                        "push_token": "fTH4uddaRfir5wGxhNmj_L:APA91bHom4bRZqkJCauQZilLFA2q5j-RCPeAmVGOjQNTeu8fpYssF8IRK9QQ5qNvVdb6W4IeGj6Ji5NK2W-dWrCId8sYpM1N52l2AZJ3idyOgAsdbN5RtMncWyoSLapv9vWr75lZJ0md"
+                    },
+                    "device_id": "6a3c51c9ddb52fd9",
+                    "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                    "user_id": "e709f6c5e7154767b17a6038493f2f46"
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "registration",
+                "connection_class": "cloud_push",
+                "unique_id": "io.homeassistant.companion.android-6a3c51c9ddb52fd9"
+            },
+            {
+                "entry_id": "6ef94de76955574df39435883fc7234c",
+                "version": 1,
+                "domain": "ring",
+                "title": "matthewericford@gmail.com",
+                "data": {
+                    "username": "matthewericford@gmail.com",
+                    "token": {
+                        "access_token": "eyJhbGciOiJIUzUxMiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiYzEyODEwMGIiLCJ0eXAiOiJKV1QifQ.eyJhcHBfaWQiOiJyaW5nX29mZmljaWFsX2FuZHJvaWQiLCJjaWQiOiJyaW5nX29mZmljaWFsX2FuZHJvaWQiLCJleHAiOjE2MDcxODg2NzgsImhhcmR3YXJlX2lkIjoidW5kZWZpbmVkIiwiaWF0IjoxNjA3MTg1MDc4LCJybmQiOiJ0aE5jbzJGczRxVm1lZyIsInNjb3BlcyI6WyJjbGllbnQiXSwic2Vzc2lvbl9pZCI6ImQ5NTQxMTA4LTRhMGYtNGZmYy04ZWVjLTQ2MWE2M2E0ZWFmMyIsInVzZXJfaWQiOjc1MjE4OTB9.dQZzt7dXJTMOTnzIPfRelX8MnF85SKReV71LZlNb6jCPfHNJmtUoq0c4m0-9zhia34amZBWJM4rnr4T_sO4hQw",
+                        "expires_in": 3600,
+                        "refresh_token": "eyJhbGciOiJIUzUxMiIsImprdSI6Ii9vYXV0aC9pbnRlcm5hbC9qd2tzIiwia2lkIjoiYzEyODEwMGIiLCJ0eXAiOiJKV1QifQ.eyJpYXQiOjE2MDcxODUwNzgsInJlZnJlc2hfY2lkIjoicmluZ19vZmZpY2lhbF9hbmRyb2lkIiwicmVmcmVzaF9zY29wZXMiOlsiY2xpZW50Il0sInJlZnJlc2hfdXNlcl9pZCI6NzUyMTg5MCwicm5kIjoiMll6UjdTemJEbFF4a0EiLCJzZXNzaW9uX2lkIjoiZDk1NDExMDgtNGEwZi00ZmZjLThlZWMtNDYxYTYzYTRlYWYzIiwidHlwZSI6InJlZnJlc2gtdG9rZW4ifQ.0PfzwBJoYPP5-fJL2pErU_tz4HhmABIu7vnlUmf4qucmcZ8hbPZtaf8IJGaD-bHrHoeemfGwPI-ZtI6LHiWPdA",
+                        "scope": [
+                            "client"
+                        ],
+                        "token_type": "Bearer",
+                        "expires_at": 1607188678.3872395
+                    }
+                },
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "cloud_poll",
+                "unique_id": "matthewericford@gmail.com"
+            },
+            {
+                "entry_id": "9c227c733c8f4bdbe29fb2c3c8146462",
+                "version": 1,
+                "domain": "upnp",
+                "title": "Ignored",
+                "data": {},
+                "options": {},
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "ignore",
+                "connection_class": "local_poll",
+                "unique_id": "uuid:ece44ff2-f1d8-4af0-bc06-9c61d7dcd67c::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            },
+            {
+                "entry_id": "cdb3a13096390c723950fdba4700c04c",
+                "version": 1,
+                "domain": "unifi",
+                "title": "Chirknet",
+                "data": {
+                    "controller": {
+                        "host": "192.168.8.105",
+                        "username": "matthewericford@gmail.com",
+                        "password": "l5Hx9Y0%3bS&kfV4sRjmcBb*SRqVE4",
+                        "port": 8443,
+                        "verify_ssl": false,
+                        "site": "default"
+                    }
+                },
+                "options": {
+                    "block_client": [
+                        "20:f4:78:14:d7:74"
+                    ],
+                    "track_clients": true,
+                    "track_wired_clients": false,
+                    "track_devices": false,
+                    "ssid_filter": [
+                        "tartarus",
+                        "tartarus_guest"
+                    ],
+                    "detection_time": 300,
+                    "ignore_wired_bug": false,
+                    "poe_clients": true,
+                    "dpi_restrictions": true,
+                    "allow_bandwidth_sensors": false,
+                    "allow_uptime_sensors": true
+                },
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "source": "user",
+                "connection_class": "local_poll",
+                "unique_id": null
+            }
+        ]
+    }
+}

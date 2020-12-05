@@ -1,0 +1,86 @@
+{
+    "version": 1,
+    "key": "mobile_app",
+    "data": {
+        "binary_sensor": {
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_is_charging": {
+                "unique_id": "is_charging",
+                "state": false,
+                "type": "binary_sensor",
+                "icon": "mdi:power-plug-off",
+                "attributes": {},
+                "name": "Is Charging",
+                "device_class": "plug",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            }
+        },
+        "deleted_ids": [],
+        "sensor": {
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_battery_level": {
+                "unique_id": "battery_level",
+                "state": 76,
+                "type": "sensor",
+                "icon": "mdi:battery-70",
+                "attributes": {},
+                "name": "Battery Level",
+                "device_class": "battery",
+                "unit_of_measurement": "%",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            },
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_battery_state": {
+                "unique_id": "battery_state",
+                "state": "discharging",
+                "type": "sensor",
+                "icon": "mdi:battery-minus",
+                "attributes": {},
+                "name": "Battery State",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            },
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_charger_type": {
+                "unique_id": "charger_type",
+                "state": "none",
+                "type": "sensor",
+                "icon": "mdi:battery",
+                "attributes": {},
+                "name": "Charger Type",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            },
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_battery_health": {
+                "unique_id": "battery_health",
+                "state": "good",
+                "type": "sensor",
+                "icon": "mdi:battery-heart-variant",
+                "attributes": {},
+                "name": "Battery Health",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            },
+            "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568_geocoded_location": {
+                "unique_id": "geocoded_location",
+                "state": "Post Office, Shrewsbury SY4 1EE, UK",
+                "type": "sensor",
+                "icon": "mdi:map",
+                "attributes": {
+                    "Administrative Area": "England",
+                    "Country": "United Kingdom",
+                    "ISO Country Code": "GB",
+                    "Latitude": 52.733704,
+                    "Locality": "null",
+                    "Longitude": -2.844782,
+                    "Postal Code": "SY4 1EE",
+                    "Sub Administrative Area": "Shropshire",
+                    "Sub Locality": "null",
+                    "Sub Thoroughfare": "null",
+                    "Thoroughfare": "null"
+                },
+                "name": "Geocoded Location",
+                "webhook_id": "ffee839d74a5dc040f9a8345359ed4781d14e086e8f3e9d9fa6ecc338398c568",
+                "added": true
+            }
+        }
+    }
+}
